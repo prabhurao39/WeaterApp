@@ -12,8 +12,8 @@ public class WeatherInfo {
   List<Weather> weather;
   Clouds clouds;
   Wind wind;
-  String rain;
-  String snow;
+  Rain rain;
+  Snow snow;
   SysInfo sys;
   String dt_txt;
 }

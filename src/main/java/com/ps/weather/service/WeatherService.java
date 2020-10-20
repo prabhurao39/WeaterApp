@@ -1,5 +1,7 @@
 package com.ps.weather.service;
 
+import com.ps.weather.WeatherResponse;
+
 public interface WeatherService {
-  public String getData(String city);
+  public WeatherResponse getData(String city);
 }
